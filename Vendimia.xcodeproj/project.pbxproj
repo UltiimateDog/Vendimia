@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6211E2102BD8FF4B00A4FD22 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6211E20F2BD8FF4B00A4FD22 /* LoginView.swift */; };
+		6211E2172BD9641700A4FD22 /* UserName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6211E2142BD9641700A4FD22 /* UserName.swift */; };
+		6211E2182BD9641700A4FD22 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6211E2152BD9641700A4FD22 /* TopView.swift */; };
+		6211E2192BD9641700A4FD22 /* FindUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6211E2162BD9641700A4FD22 /* FindUser.swift */; };
+		6212BE692BD7157900843FD3 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 6212BE682BD7157900843FD3 /* Localizable.xcstrings */; };
+		6217893A2B969D5300EFE45C /* VendimiaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621789392B969D5300EFE45C /* VendimiaApp.swift */; };
+		6217893E2B969D5400EFE45C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6217893D2B969D5400EFE45C /* Assets.xcassets */; };
+		621789412B969D5400EFE45C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 621789402B969D5400EFE45C /* Preview Assets.xcassets */; };
+		6217895F2B969D9100EFE45C /* TicketPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621789482B969D9100EFE45C /* TicketPreview.swift */; };
+		621789612B969D9100EFE45C /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6217894A2B969D9100EFE45C /* SearchBar.swift */; };
+		621789632B969D9100EFE45C /* PointsMapProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6217894C2B969D9100EFE45C /* PointsMapProgress.swift */; };
+		621789692B969D9100EFE45C /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621789542B969D9100EFE45C /* HistoryView.swift */; };
+		6217896A2B969D9100EFE45C /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621789552B969D9100EFE45C /* ProfileView.swift */; };
+		6217896B2B969D9100EFE45C /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621789562B969D9100EFE45C /* NavigationBarView.swift */; };
+		6217896C2B969D9100EFE45C /* PayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621789572B969D9100EFE45C /* PayView.swift */; };
+		6217896E2B969D9100EFE45C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621789592B969D9100EFE45C /* ContentView.swift */; };
+		6217896F2B969D9100EFE45C /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6217895B2B969D9100EFE45C /* Profile.swift */; };
+		621789702B969D9100EFE45C /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6217895C2B969D9100EFE45C /* Ticket.swift */; };
+		621789712B969D9100EFE45C /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6217895D2B969D9100EFE45C /* ModelData.swift */; };
+		621789762B97A52F00EFE45C /* TicketDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 621789752B97A52F00EFE45C /* TicketDisplay.swift */; };
+		623287692BD9821200A6093D /* FaceRecog.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 623287682BD9821200A6093D /* FaceRecog.mlmodel */; };
+		6232876B2BD984F500A6093D /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6232876A2BD984F500A6093D /* CameraView.swift */; };
+		6232876D2BD9A9B100A6093D /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6232876C2BD9A9B100A6093D /* View.swift */; };
+		623287732BD9B6C800A6093D /* Q&A.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623287712BD9B6C800A6093D /* Q&A.swift */; };
+		623287742BD9B6C800A6093D /* PayCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623287722BD9B6C800A6093D /* PayCheck.swift */; };
+		6298607A2B9AA37F006BECDD /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629860772B9AA37F006BECDD /* ContainerView.swift */; };
+		6298607B2B9AA37F006BECDD /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629860782B9AA37F006BECDD /* SplashScreenView.swift */; };
+		629860802B9AA4B2006BECDD /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6298607D2B9AA4B2006BECDD /* PageView.swift */; };
+		629860812B9AA4B2006BECDD /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6298607E2B9AA4B2006BECDD /* PageModel.swift */; };
+		629860822B9AA4B2006BECDD /* CView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6298607F2B9AA4B2006BECDD /* CView.swift */; };
+		DC8A7C3C2BD9D72100C204CE /* FaceRecognizerFinal.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DC8A7C3B2BD9D72100C204CE /* FaceRecognizerFinal.mlmodel */; };
+		DC8A7C542BD9DECA00C204CE /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC8A7C532BD9DECA00C204CE /* WidgetKit.framework */; };
+		DC8A7C562BD9DECA00C204CE /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC8A7C552BD9DECA00C204CE /* SwiftUI.framework */; };
+		DC8A7C592BD9DECA00C204CE /* progresoWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8A7C582BD9DECA00C204CE /* progresoWidgetBundle.swift */; };
+		DC8A7C5B2BD9DECA00C204CE /* progresoWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8A7C5A2BD9DECA00C204CE /* progresoWidgetLiveActivity.swift */; };
+		DC8A7C5D2BD9DECA00C204CE /* progresoWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8A7C5C2BD9DECA00C204CE /* progresoWidget.swift */; };
+		DC8A7C5F2BD9DECA00C204CE /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8A7C5E2BD9DECA00C204CE /* AppIntent.swift */; };
+		DC8A7C612BD9DECA00C204CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC8A7C602BD9DECA00C204CE /* Assets.xcassets */; };
+		DC8A7C652BD9DECA00C204CE /* progresoWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DC8A7C512BD9DECA00C204CE /* progresoWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC8A7C632BD9DECA00C204CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6217892E2B969D5300EFE45C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC8A7C502BD9DECA00C204CE;
+			remoteInfo = progresoWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DC8A7C692BD9DECA00C204CE /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DC8A7C652BD9DECA00C204CE /* progresoWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6211E20F2BD8FF4B00A4FD22 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		6211E2142BD9641700A4FD22 /* UserName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserName.swift; sourceTree = "<group>"; };
+		6211E2152BD9641700A4FD22 /* TopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		6211E2162BD9641700A4FD22 /* FindUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindUser.swift; sourceTree = "<group>"; };
+		6212BE672BD7102200843FD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6212BE682BD7157900843FD3 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		621789362B969D5300EFE45C /* Vendimia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vendimia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		621789392B969D5300EFE45C /* VendimiaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendimiaApp.swift; sourceTree = "<group>"; };
+		6217893D2B969D5400EFE45C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		621789402B969D5400EFE45C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		621789482B969D9100EFE45C /* TicketPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketPreview.swift; sourceTree = "<group>"; };
+		6217894A2B969D9100EFE45C /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		6217894C2B969D9100EFE45C /* PointsMapProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointsMapProgress.swift; sourceTree = "<group>"; };
+		621789542B969D9100EFE45C /* HistoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		621789552B969D9100EFE45C /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		621789562B969D9100EFE45C /* NavigationBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		621789572B969D9100EFE45C /* PayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayView.swift; sourceTree = "<group>"; };
+		621789592B969D9100EFE45C /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6217895B2B969D9100EFE45C /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		6217895C2B969D9100EFE45C /* Ticket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		6217895D2B969D9100EFE45C /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		621789752B97A52F00EFE45C /* TicketDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketDisplay.swift; sourceTree = "<group>"; };
+		623287682BD9821200A6093D /* FaceRecog.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FaceRecog.mlmodel; sourceTree = "<group>"; };
+		6232876A2BD984F500A6093D /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		6232876C2BD9A9B100A6093D /* View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		623287712BD9B6C800A6093D /* Q&A.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Q&A.swift"; sourceTree = "<group>"; };
+		623287722BD9B6C800A6093D /* PayCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayCheck.swift; sourceTree = "<group>"; };
+		629860772B9AA37F006BECDD /* ContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
+		629860782B9AA37F006BECDD /* SplashScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		6298607D2B9AA4B2006BECDD /* PageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		6298607E2B9AA4B2006BECDD /* PageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
+		6298607F2B9AA4B2006BECDD /* CView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CView.swift; sourceTree = "<group>"; };
+		DC8A7C3B2BD9D72100C204CE /* FaceRecognizerFinal.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FaceRecognizerFinal.mlmodel; sourceTree = "<group>"; };
+		DC8A7C512BD9DECA00C204CE /* progresoWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = progresoWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC8A7C532BD9DECA00C204CE /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		DC8A7C552BD9DECA00C204CE /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		DC8A7C582BD9DECA00C204CE /* progresoWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = progresoWidgetBundle.swift; sourceTree = "<group>"; };
+		DC8A7C5A2BD9DECA00C204CE /* progresoWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = progresoWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		DC8A7C5C2BD9DECA00C204CE /* progresoWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = progresoWidget.swift; sourceTree = "<group>"; };
+		DC8A7C5E2BD9DECA00C204CE /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		DC8A7C602BD9DECA00C204CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC8A7C622BD9DECA00C204CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		621789332B969D5300EFE45C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC8A7C4E2BD9DECA00C204CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8A7C562BD9DECA00C204CE /* SwiftUI.framework in Frameworks */,
+				DC8A7C542BD9DECA00C204CE /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6211E2132BD960E900A4FD22 /* Paying */ = {
+			isa = PBXGroup;
+			children = (
+				623287722BD9B6C800A6093D /* PayCheck.swift */,
+				623287712BD9B6C800A6093D /* Q&A.swift */,
+				6232876C2BD9A9B100A6093D /* View.swift */,
+				6232876A2BD984F500A6093D /* CameraView.swift */,
+				6211E2162BD9641700A4FD22 /* FindUser.swift */,
+				6211E2152BD9641700A4FD22 /* TopView.swift */,
+				6211E2142BD9641700A4FD22 /* UserName.swift */,
+			);
+			path = Paying;
+			sourceTree = "<group>";
+		};
+		6217892D2B969D5300EFE45C = {
+			isa = PBXGroup;
+			children = (
+				6212BE682BD7157900843FD3 /* Localizable.xcstrings */,
+				629860792B9AA37F006BECDD /* SplashScreen */,
+				621789382B969D5300EFE45C /* Vendimia */,
+				DC8A7C572BD9DECA00C204CE /* progresoWidget */,
+				DC8A7C522BD9DECA00C204CE /* Frameworks */,
+				621789372B969D5300EFE45C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		621789372B969D5300EFE45C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				621789362B969D5300EFE45C /* Vendimia.app */,
+				DC8A7C512BD9DECA00C204CE /* progresoWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		621789382B969D5300EFE45C /* Vendimia */ = {
+			isa = PBXGroup;
+			children = (
+				623287682BD9821200A6093D /* FaceRecog.mlmodel */,
+				DC8A7C3B2BD9D72100C204CE /* FaceRecognizerFinal.mlmodel */,
+				6212BE672BD7102200843FD3 /* Info.plist */,
+				621789392B969D5300EFE45C /* VendimiaApp.swift */,
+				6211E2132BD960E900A4FD22 /* Paying */,
+				621789532B969D9100EFE45C /* Views */,
+				621789472B969D9100EFE45C /* Helpers */,
+				6217895A2B969D9100EFE45C /* Model */,
+				6298607C2B9AA47C006BECDD /* Preview */,
+				6217893D2B969D5400EFE45C /* Assets.xcassets */,
+				6217893F2B969D5400EFE45C /* Preview Content */,
+			);
+			path = Vendimia;
+			sourceTree = "<group>";
+		};
+		6217893F2B969D5400EFE45C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				621789402B969D5400EFE45C /* Preview Assets.xcassets */,
+				6211E20F2BD8FF4B00A4FD22 /* LoginView.swift */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		621789472B969D9100EFE45C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				621789752B97A52F00EFE45C /* TicketDisplay.swift */,
+				621789482B969D9100EFE45C /* TicketPreview.swift */,
+				6217894C2B969D9100EFE45C /* PointsMapProgress.swift */,
+				6217894A2B969D9100EFE45C /* SearchBar.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		621789532B969D9100EFE45C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				621789542B969D9100EFE45C /* HistoryView.swift */,
+				621789592B969D9100EFE45C /* ContentView.swift */,
+				621789572B969D9100EFE45C /* PayView.swift */,
+				621789562B969D9100EFE45C /* NavigationBarView.swift */,
+				621789552B969D9100EFE45C /* ProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6217895A2B969D9100EFE45C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6217895B2B969D9100EFE45C /* Profile.swift */,
+				6217895C2B969D9100EFE45C /* Ticket.swift */,
+				6217895D2B969D9100EFE45C /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		629860792B9AA37F006BECDD /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				629860772B9AA37F006BECDD /* ContainerView.swift */,
+				629860782B9AA37F006BECDD /* SplashScreenView.swift */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		6298607C2B9AA47C006BECDD /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				6298607F2B9AA4B2006BECDD /* CView.swift */,
+				6298607E2B9AA4B2006BECDD /* PageModel.swift */,
+				6298607D2B9AA4B2006BECDD /* PageView.swift */,
+			);
+			path = Preview;
+			sourceTree = "<group>";
+		};
+		DC8A7C522BD9DECA00C204CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC8A7C532BD9DECA00C204CE /* WidgetKit.framework */,
+				DC8A7C552BD9DECA00C204CE /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC8A7C572BD9DECA00C204CE /* progresoWidget */ = {
+			isa = PBXGroup;
+			children = (
+				DC8A7C582BD9DECA00C204CE /* progresoWidgetBundle.swift */,
+				DC8A7C5A2BD9DECA00C204CE /* progresoWidgetLiveActivity.swift */,
+				DC8A7C5C2BD9DECA00C204CE /* progresoWidget.swift */,
+				DC8A7C5E2BD9DECA00C204CE /* AppIntent.swift */,
+				DC8A7C602BD9DECA00C204CE /* Assets.xcassets */,
+				DC8A7C622BD9DECA00C204CE /* Info.plist */,
+			);
+			path = progresoWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		621789352B969D5300EFE45C /* Vendimia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 621789442B969D5400EFE45C /* Build configuration list for PBXNativeTarget "Vendimia" */;
+			buildPhases = (
+				621789322B969D5300EFE45C /* Sources */,
+				621789332B969D5300EFE45C /* Frameworks */,
+				621789342B969D5300EFE45C /* Resources */,
+				DC8A7C692BD9DECA00C204CE /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC8A7C642BD9DECA00C204CE /* PBXTargetDependency */,
+			);
+			name = Vendimia;
+			productName = "Waste Manager";
+			productReference = 621789362B969D5300EFE45C /* Vendimia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC8A7C502BD9DECA00C204CE /* progresoWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC8A7C662BD9DECA00C204CE /* Build configuration list for PBXNativeTarget "progresoWidgetExtension" */;
+			buildPhases = (
+				DC8A7C4D2BD9DECA00C204CE /* Sources */,
+				DC8A7C4E2BD9DECA00C204CE /* Frameworks */,
+				DC8A7C4F2BD9DECA00C204CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = progresoWidgetExtension;
+			productName = progresoWidgetExtension;
+			productReference = DC8A7C512BD9DECA00C204CE /* progresoWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6217892E2B969D5300EFE45C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					621789352B969D5300EFE45C = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					DC8A7C502BD9DECA00C204CE = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 621789312B969D5300EFE45C /* Build configuration list for PBXProject "Vendimia" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+				fr,
+			);
+			mainGroup = 6217892D2B969D5300EFE45C;
+			productRefGroup = 621789372B969D5300EFE45C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				621789352B969D5300EFE45C /* Vendimia */,
+				DC8A7C502BD9DECA00C204CE /* progresoWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		621789342B969D5300EFE45C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				621789412B969D5400EFE45C /* Preview Assets.xcassets in Resources */,
+				6217893E2B969D5400EFE45C /* Assets.xcassets in Resources */,
+				6212BE692BD7157900843FD3 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC8A7C4F2BD9DECA00C204CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8A7C612BD9DECA00C204CE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		621789322B969D5300EFE45C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6217896A2B969D9100EFE45C /* ProfileView.swift in Sources */,
+				629860822B9AA4B2006BECDD /* CView.swift in Sources */,
+				621789692B969D9100EFE45C /* HistoryView.swift in Sources */,
+				6217893A2B969D5300EFE45C /* VendimiaApp.swift in Sources */,
+				6298607B2B9AA37F006BECDD /* SplashScreenView.swift in Sources */,
+				621789632B969D9100EFE45C /* PointsMapProgress.swift in Sources */,
+				621789702B969D9100EFE45C /* Ticket.swift in Sources */,
+				6211E2182BD9641700A4FD22 /* TopView.swift in Sources */,
+				6217896F2B969D9100EFE45C /* Profile.swift in Sources */,
+				621789762B97A52F00EFE45C /* TicketDisplay.swift in Sources */,
+				623287732BD9B6C800A6093D /* Q&A.swift in Sources */,
+				6217896E2B969D9100EFE45C /* ContentView.swift in Sources */,
+				6211E2192BD9641700A4FD22 /* FindUser.swift in Sources */,
+				629860812B9AA4B2006BECDD /* PageModel.swift in Sources */,
+				623287692BD9821200A6093D /* FaceRecog.mlmodel in Sources */,
+				6217896C2B969D9100EFE45C /* PayView.swift in Sources */,
+				6232876B2BD984F500A6093D /* CameraView.swift in Sources */,
+				629860802B9AA4B2006BECDD /* PageView.swift in Sources */,
+				6211E2172BD9641700A4FD22 /* UserName.swift in Sources */,
+				621789612B969D9100EFE45C /* SearchBar.swift in Sources */,
+				6217895F2B969D9100EFE45C /* TicketPreview.swift in Sources */,
+				6217896B2B969D9100EFE45C /* NavigationBarView.swift in Sources */,
+				623287742BD9B6C800A6093D /* PayCheck.swift in Sources */,
+				6211E2102BD8FF4B00A4FD22 /* LoginView.swift in Sources */,
+				DC8A7C3C2BD9D72100C204CE /* FaceRecognizerFinal.mlmodel in Sources */,
+				6232876D2BD9A9B100A6093D /* View.swift in Sources */,
+				6298607A2B9AA37F006BECDD /* ContainerView.swift in Sources */,
+				621789712B969D9100EFE45C /* ModelData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC8A7C4D2BD9DECA00C204CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8A7C5B2BD9DECA00C204CE /* progresoWidgetLiveActivity.swift in Sources */,
+				DC8A7C5F2BD9DECA00C204CE /* AppIntent.swift in Sources */,
+				DC8A7C592BD9DECA00C204CE /* progresoWidgetBundle.swift in Sources */,
+				DC8A7C5D2BD9DECA00C204CE /* progresoWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC8A7C642BD9DECA00C204CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC8A7C502BD9DECA00C204CE /* progresoWidgetExtension */;
+			targetProxy = DC8A7C632BD9DECA00C204CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		621789422B969D5400EFE45C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		621789432B969D5400EFE45C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		621789452B969D5400EFE45C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Vendimia/Preview Content\"";
+				DEVELOPMENT_TEAM = 7VCTMF45GY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Vendimia/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Vendimia;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_NSCameraUsageDescription = "The camera is needed to identify the user face ";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CardboardSoftware.Vendimia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		621789462B969D5400EFE45C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Vendimia/Preview Content\"";
+				DEVELOPMENT_TEAM = 7VCTMF45GY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Vendimia/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Vendimia;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_NSCameraUsageDescription = "The camera is needed to identify the user face ";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CardboardSoftware.Vendimia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC8A7C672BD9DECA00C204CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4WR3MVG6AF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = progresoWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = progresoWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VendiMia.Github.progresoWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC8A7C682BD9DECA00C204CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4WR3MVG6AF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = progresoWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = progresoWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VendiMia.Github.progresoWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		621789312B969D5300EFE45C /* Build configuration list for PBXProject "Vendimia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				621789422B969D5400EFE45C /* Debug */,
+				621789432B969D5400EFE45C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		621789442B969D5400EFE45C /* Build configuration list for PBXNativeTarget "Vendimia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				621789452B969D5400EFE45C /* Debug */,
+				621789462B969D5400EFE45C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC8A7C662BD9DECA00C204CE /* Build configuration list for PBXNativeTarget "progresoWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC8A7C672BD9DECA00C204CE /* Debug */,
+				DC8A7C682BD9DECA00C204CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6217892E2B969D5300EFE45C /* Project object */;
+}
